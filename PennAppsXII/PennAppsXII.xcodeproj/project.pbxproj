@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212074E81B9A77510064D7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212074E71B9A77510064D7F0 /* AppDelegate.swift */; };
+		212074EA1B9A77510064D7F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212074E91B9A77510064D7F0 /* ViewController.swift */; };
+		212074ED1B9A77510064D7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212074EB1B9A77510064D7F0 /* Main.storyboard */; };
+		212074F01B9A77510064D7F0 /* PennAppsXII.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 212074EE1B9A77510064D7F0 /* PennAppsXII.xcdatamodeld */; };
+		212074F21B9A77510064D7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212074F11B9A77510064D7F0 /* Assets.xcassets */; };
+		212074F51B9A77510064D7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212074F31B9A77510064D7F0 /* LaunchScreen.storyboard */; };
+		212075001B9A77520064D7F0 /* PennAppsXIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212074FF1B9A77520064D7F0 /* PennAppsXIITests.swift */; };
+		2120750B1B9A77520064D7F0 /* PennAppsXIIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2120750A1B9A77520064D7F0 /* PennAppsXIIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212074FC1B9A77520064D7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212074DC1B9A77510064D7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212074E31B9A77510064D7F0;
+			remoteInfo = PennAppsXII;
+		};
+		212075071B9A77520064D7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212074DC1B9A77510064D7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212074E31B9A77510064D7F0;
+			remoteInfo = PennAppsXII;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		212074E41B9A77510064D7F0 /* PennAppsXII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennAppsXII.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212074E71B9A77510064D7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212074E91B9A77510064D7F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212074EC1B9A77510064D7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212074EF1B9A77510064D7F0 /* PennAppsXII.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PennAppsXII.xcdatamodel; sourceTree = "<group>"; };
+		212074F11B9A77510064D7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212074F41B9A77510064D7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212074F61B9A77510064D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212074FB1B9A77520064D7F0 /* PennAppsXIITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsXIITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		212074FF1B9A77520064D7F0 /* PennAppsXIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsXIITests.swift; sourceTree = "<group>"; };
+		212075011B9A77520064D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212075061B9A77520064D7F0 /* PennAppsXIIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsXIIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2120750A1B9A77520064D7F0 /* PennAppsXIIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsXIIUITests.swift; sourceTree = "<group>"; };
+		2120750C1B9A77520064D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212074E11B9A77510064D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212074F81B9A77520064D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212075031B9A77520064D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212074DB1B9A77510064D7F0 = {
+			isa = PBXGroup;
+			children = (
+				212074E61B9A77510064D7F0 /* PennAppsXII */,
+				212074FE1B9A77520064D7F0 /* PennAppsXIITests */,
+				212075091B9A77520064D7F0 /* PennAppsXIIUITests */,
+				212074E51B9A77510064D7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212074E51B9A77510064D7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212074E41B9A77510064D7F0 /* PennAppsXII.app */,
+				212074FB1B9A77520064D7F0 /* PennAppsXIITests.xctest */,
+				212075061B9A77520064D7F0 /* PennAppsXIIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212074E61B9A77510064D7F0 /* PennAppsXII */ = {
+			isa = PBXGroup;
+			children = (
+				212074E71B9A77510064D7F0 /* AppDelegate.swift */,
+				212074E91B9A77510064D7F0 /* ViewController.swift */,
+				212074EB1B9A77510064D7F0 /* Main.storyboard */,
+				212074F11B9A77510064D7F0 /* Assets.xcassets */,
+				212074F31B9A77510064D7F0 /* LaunchScreen.storyboard */,
+				212074F61B9A77510064D7F0 /* Info.plist */,
+				212074EE1B9A77510064D7F0 /* PennAppsXII.xcdatamodeld */,
+			);
+			path = PennAppsXII;
+			sourceTree = "<group>";
+		};
+		212074FE1B9A77520064D7F0 /* PennAppsXIITests */ = {
+			isa = PBXGroup;
+			children = (
+				212074FF1B9A77520064D7F0 /* PennAppsXIITests.swift */,
+				212075011B9A77520064D7F0 /* Info.plist */,
+			);
+			path = PennAppsXIITests;
+			sourceTree = "<group>";
+		};
+		212075091B9A77520064D7F0 /* PennAppsXIIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2120750A1B9A77520064D7F0 /* PennAppsXIIUITests.swift */,
+				2120750C1B9A77520064D7F0 /* Info.plist */,
+			);
+			path = PennAppsXIIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212074E31B9A77510064D7F0 /* PennAppsXII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2120750F1B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXII" */;
+			buildPhases = (
+				212074E01B9A77510064D7F0 /* Sources */,
+				212074E11B9A77510064D7F0 /* Frameworks */,
+				212074E21B9A77510064D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennAppsXII;
+			productName = PennAppsXII;
+			productReference = 212074E41B9A77510064D7F0 /* PennAppsXII.app */;
+			productType = "com.apple.product-type.application";
+		};
+		212074FA1B9A77520064D7F0 /* PennAppsXIITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212075121B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXIITests" */;
+			buildPhases = (
+				212074F71B9A77520064D7F0 /* Sources */,
+				212074F81B9A77520064D7F0 /* Frameworks */,
+				212074F91B9A77520064D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212074FD1B9A77520064D7F0 /* PBXTargetDependency */,
+			);
+			name = PennAppsXIITests;
+			productName = PennAppsXIITests;
+			productReference = 212074FB1B9A77520064D7F0 /* PennAppsXIITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		212075051B9A77520064D7F0 /* PennAppsXIIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212075151B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXIIUITests" */;
+			buildPhases = (
+				212075021B9A77520064D7F0 /* Sources */,
+				212075031B9A77520064D7F0 /* Frameworks */,
+				212075041B9A77520064D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212075081B9A77520064D7F0 /* PBXTargetDependency */,
+			);
+			name = PennAppsXIIUITests;
+			productName = PennAppsXIIUITests;
+			productReference = 212075061B9A77520064D7F0 /* PennAppsXIIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212074DC1B9A77510064D7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "WEI, Yunchen";
+				TargetAttributes = {
+					212074E31B9A77510064D7F0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = P566DSNSR5;
+					};
+					212074FA1B9A77520064D7F0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = P566DSNSR5;
+						TestTargetID = 212074E31B9A77510064D7F0;
+					};
+					212075051B9A77520064D7F0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = P566DSNSR5;
+						TestTargetID = 212074E31B9A77510064D7F0;
+					};
+				};
+			};
+			buildConfigurationList = 212074DF1B9A77510064D7F0 /* Build configuration list for PBXProject "PennAppsXII" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212074DB1B9A77510064D7F0;
+			productRefGroup = 212074E51B9A77510064D7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212074E31B9A77510064D7F0 /* PennAppsXII */,
+				212074FA1B9A77520064D7F0 /* PennAppsXIITests */,
+				212075051B9A77520064D7F0 /* PennAppsXIIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212074E21B9A77510064D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212074F51B9A77510064D7F0 /* LaunchScreen.storyboard in Resources */,
+				212074F21B9A77510064D7F0 /* Assets.xcassets in Resources */,
+				212074ED1B9A77510064D7F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212074F91B9A77520064D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212075041B9A77520064D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212074E01B9A77510064D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212074EA1B9A77510064D7F0 /* ViewController.swift in Sources */,
+				212074F01B9A77510064D7F0 /* PennAppsXII.xcdatamodeld in Sources */,
+				212074E81B9A77510064D7F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212074F71B9A77520064D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212075001B9A77520064D7F0 /* PennAppsXIITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212075021B9A77520064D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2120750B1B9A77520064D7F0 /* PennAppsXIIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212074FD1B9A77520064D7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212074E31B9A77510064D7F0 /* PennAppsXII */;
+			targetProxy = 212074FC1B9A77520064D7F0 /* PBXContainerItemProxy */;
+		};
+		212075081B9A77520064D7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212074E31B9A77510064D7F0 /* PennAppsXII */;
+			targetProxy = 212075071B9A77520064D7F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		212074EB1B9A77510064D7F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212074EC1B9A77510064D7F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212074F31B9A77510064D7F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212074F41B9A77510064D7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2120750D1B9A77520064D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2120750E1B9A77520064D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212075101B9A77520064D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PennAppsXII/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.PennAppsXII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		212075111B9A77520064D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PennAppsXII/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.PennAppsXII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		212075131B9A77520064D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PennAppsXIITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.PennAppsXIITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennAppsXII.app/PennAppsXII";
+			};
+			name = Debug;
+		};
+		212075141B9A77520064D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PennAppsXIITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.PennAppsXIITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennAppsXII.app/PennAppsXII";
+			};
+			name = Release;
+		};
+		212075161B9A77520064D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PennAppsXIIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.PennAppsXIIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PennAppsXII;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		212075171B9A77520064D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PennAppsXIIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.upenn.PennAppsXIIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PennAppsXII;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212074DF1B9A77510064D7F0 /* Build configuration list for PBXProject "PennAppsXII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2120750D1B9A77520064D7F0 /* Debug */,
+				2120750E1B9A77520064D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2120750F1B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212075101B9A77520064D7F0 /* Debug */,
+				212075111B9A77520064D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		212075121B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXIITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212075131B9A77520064D7F0 /* Debug */,
+				212075141B9A77520064D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		212075151B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXIIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212075161B9A77520064D7F0 /* Debug */,
+				212075171B9A77520064D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		212074EE1B9A77510064D7F0 /* PennAppsXII.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				212074EF1B9A77510064D7F0 /* PennAppsXII.xcdatamodel */,
+			);
+			currentVersion = 212074EF1B9A77510064D7F0 /* PennAppsXII.xcdatamodel */;
+			path = PennAppsXII.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 212074DC1B9A77510064D7F0 /* Project object */;
+}
