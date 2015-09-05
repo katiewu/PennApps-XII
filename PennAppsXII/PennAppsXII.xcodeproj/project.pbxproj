@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		212074E81B9A77510064D7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212074E71B9A77510064D7F0 /* AppDelegate.swift */; };
-		212074EA1B9A77510064D7F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212074E91B9A77510064D7F0 /* ViewController.swift */; };
+		212074EA1B9A77510064D7F0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212074E91B9A77510064D7F0 /* LoginViewController.swift */; };
 		212074ED1B9A77510064D7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212074EB1B9A77510064D7F0 /* Main.storyboard */; };
 		212074F01B9A77510064D7F0 /* PennAppsXII.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 212074EE1B9A77510064D7F0 /* PennAppsXII.xcdatamodeld */; };
 		212074F21B9A77510064D7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212074F11B9A77510064D7F0 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		212074E41B9A77510064D7F0 /* PennAppsXII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennAppsXII.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212074E71B9A77510064D7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		212074E91B9A77510064D7F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212074E91B9A77510064D7F0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		212074EC1B9A77510064D7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212074EF1B9A77510064D7F0 /* PennAppsXII.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PennAppsXII.xcdatamodel; sourceTree = "<group>"; };
 		212074F11B9A77510064D7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				212074E71B9A77510064D7F0 /* AppDelegate.swift */,
-				212074E91B9A77510064D7F0 /* ViewController.swift */,
+				212074E91B9A77510064D7F0 /* LoginViewController.swift */,
 				212074EB1B9A77510064D7F0 /* Main.storyboard */,
 				212074F11B9A77510064D7F0 /* Assets.xcassets */,
 				212074F31B9A77510064D7F0 /* LaunchScreen.storyboard */,
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212074EA1B9A77510064D7F0 /* ViewController.swift in Sources */,
+				212074EA1B9A77510064D7F0 /* LoginViewController.swift in Sources */,
 				212074F01B9A77510064D7F0 /* PennAppsXII.xcdatamodeld in Sources */,
 				212074E81B9A77510064D7F0 /* AppDelegate.swift in Sources */,
 			);
@@ -488,6 +488,7 @@
 				212075111B9A77520064D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212075121B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXIITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				212075141B9A77520064D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212075151B9A77520064D7F0 /* Build configuration list for PBXNativeTarget "PennAppsXIIUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				212075171B9A77520064D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
